@@ -3,7 +3,14 @@
         font-family: "Orbitron";
     }
     background-color: #401155;
-    height: 60px;
     width: 100vw;
     position: fixed;
+
+    height: 100px;
+    @media only screen and (min-width: 700px) {
+        height: 60px;
+    }
+    @media only screen and (min-width: 1440px) {
+        height: 60px;
+    }
 }

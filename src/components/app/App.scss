@@ -1,6 +1,14 @@
 .app {
     position: relative;
-    padding: 60px;
+
+    padding: 125px 10px 25px 10px;
+    @media only screen and (min-width: 700px) {
+        padding: 85px 50px 25px 50px;
+    }
+    @media only screen and (min-width: 1440px) {
+        padding: 85px 50px 25px 50px;
+    }
+    
     .heading {
         top: 0px;
         left: 0px;
@@ -8,4 +16,19 @@
 }
 h1{
     margin: 0px;
+
+    
+
+
+//mobile scss
+
+
+
+
+
+
+
+
+
+
 }

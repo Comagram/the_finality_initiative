@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react"
 import { HeadingProps } from "./Heading.types"
 import "./Heading.scss"
 import Button from "../Button/Button"
+import { useMediaQuery } from "usehooks-ts";
 
 // Site header, shows up on all pages
 
@@ -17,6 +18,8 @@ function changeTheme () {
     console.log(theme)
 
 }
+
+const isMobile = useMediaQuery("()")
 
 //On onClick, it should route to the apropriet page.
 //buttons scss should be yk.. done xD
